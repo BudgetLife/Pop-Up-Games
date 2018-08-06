@@ -372,7 +372,7 @@ footer p {
 /* Venue */
 .venue-body {
   display: grid;
-  border: 3px solid #2196f3;
+  border: 3px solid #000;
   min-height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 100px 45px 1fr;
@@ -384,11 +384,9 @@ footer p {
 
 .venue-name {
   grid-area: venue;
-  background: #3498db;
+  background: #343a40;
   color: #fff;
   text-align: center;
-
-  border: 2px solid #2196f3;
   font-weight: bold;
   font-size: 2em;
   min-height: 100%;
@@ -397,13 +395,13 @@ footer p {
 .venueinfo {
   grid-area: info;
   padding: 8px;
-  background-color: rgb(190, 218, 241);
+  background-color: #d8d9da;
   text-align: center;
 }
 
 .fieldlist {
   grid-area: fieldlist;
-  border: 2px solid #2196f3;
+  border: 2px solid #000;
   background: #f7f7f7;
   height: auto;
   min-height: 100%;
@@ -411,7 +409,7 @@ footer p {
 }
 
 .indivfield {
-  border: 1px solid #2196f3;
+  border: 1px solid #000;
   background: #f7f7f7;
   padding: 5px;
   display: grid;
@@ -440,7 +438,6 @@ footer p {
 /* Field */
 .field-body {
   display: grid;
-  border: 3px solid #2196f3;
   min-height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 120px 1fr;
@@ -451,11 +448,11 @@ footer p {
 
 .fieldinfo {
   grid-area: fieldinfo;
-  background: #3498db;
+  background: #343a40;
   color: #fff;
   text-align: center;
   padding: 10px;
-  border: 2px solid #2196f3;
+  border: 2px solid #000;
 }
 
 .field-event-entry {

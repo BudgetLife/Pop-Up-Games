@@ -232,7 +232,7 @@ class App extends React.Component {
                 <Row>
                   <Col sm="12" md="12" lg="12">
                     <p className="align-self-center">&copy; 2017. Trademaked "Popup games"</p>
-                    <Nav dark>
+                    <Nav>
                       <NavItem>
                         <NavLink href="#">Sitemap</NavLink>
                       </NavItem>
