@@ -22,11 +22,12 @@ exports.saveUser = user =>
 //update the event, eventObj : {id, eventName, sportId, date, startBlock, endBlock, notes}
 
 exports.saveEventUpdates = (event, cb) => {
-
+  delete event['isEditable'];
+  delete event['timeConflict'];
   new Event({id :event.id}).fetch().then(function (model) {
     if (model) {
-      model.set(event);
-      return model.save({}, {
+      //model.set(event);
+      return model.save(event, {
         method: 'update',
         patch: true
       })
