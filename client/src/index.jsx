@@ -175,7 +175,7 @@ class App extends React.Component {
                 </div>
 
                 <div className="third center">
-                  <img src="./img/basketballcartoon.png" height="200" />
+                  <img src="./img/basketballcartoon.png" height="200" width="150" />
                 </div>
               </div>
             </div>
@@ -231,15 +231,23 @@ class App extends React.Component {
               <footer>
                 <Row>
                   <Col sm="12" md="12" lg="12">
-                    <p className="align-self-center">
-                      &copy; 2017. Отдел разработки и администрирования ООО "Сбербанк-Сервис"
-                    </p>
-                    <p className="align-self-center">
-                      &copy; 2017. Отдел разработки и администрирования ООО "Сбербанк-Сервис"
-                    </p>
-                    <p className="align-self-center">
-                      &copy; 2017. Отдел разработки и администрирования ООО "Сбербанк-Сервис"
-                    </p>
+                    <p className="align-self-center">&copy; 2017. Trademaked "Popup games"</p>
+                    <Nav dark>
+                      <NavItem>
+                        <NavLink href="#">Sitemap</NavLink>
+                      </NavItem>
+                      <NavItem>
+                        <NavLink href="#">About</NavLink>
+                      </NavItem>
+                      <NavItem>
+                        <NavLink href="#">Contact Us</NavLink>
+                      </NavItem>
+                      <NavItem>
+                        <NavLink disabled href="#">
+                          Team Hours
+                        </NavLink>
+                      </NavItem>
+                    </Nav>
                   </Col>
                 </Row>
               </footer>

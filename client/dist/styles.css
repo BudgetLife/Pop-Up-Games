@@ -540,20 +540,21 @@ footer p {
 }
 
 .carousel-caption {
-  bottom: 450px !important;
+  bottom: 415px !important;
   font-family: 'Permanent Marker', cursive !important;
-  font-size: 100px !important;
+  font-size: 165px !important;
 }
 
 .homefooter {
+  margin-top: 14em !important;
   position: relative !important;
   top: 257px !important;
 }
 
-@media (min-width: 768px) .container {
-  max-width: 720px;
-}
-
 .container {
   max-width: 1800px !important;
+}
+
+a {
+  color: #fff !important;
 }

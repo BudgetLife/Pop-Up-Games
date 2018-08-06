@@ -3,7 +3,7 @@ import GMap from './GMap.jsx';
 import PropTypes from 'prop-types';
 import VenueList from './VenueList.jsx';
 import axios from 'axios';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import { withRouter } from 'react-router-dom';
 
 /**
@@ -74,9 +74,23 @@ class Home extends React.Component {
             <footer id="home-footer">
               <Row>
                 <Col sm="12" md="12" lg="12">
-                  <p className="align-self-center">
-                    &copy; 2017. Отдел разработки и администрирования ООО "Сбербанк-Сервис"
-                  </p>
+                  <p className="align-self-center">&copy; 2017. Trademaked "Popup games"</p>
+                  <Nav dark>
+                    <NavItem>
+                      <NavLink href="#">Sitemap</NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink href="#">About</NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink href="#">Contact Us</NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink disabled href="#">
+                        Team Hours
+                      </NavLink>
+                    </NavItem>
+                  </Nav>
                 </Col>
               </Row>
             </footer>
