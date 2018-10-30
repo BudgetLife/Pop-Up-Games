@@ -10,8 +10,8 @@ Find, create, and join pick up games in your local area
 ## Team
 
 - **Product Owner**: Peter Gierke
-- **Scrum Master**: Max Berkowitz
-- **Development Team Members**: Sophia Lee, Yuqi Zhu
+- **Scrum Master**: Josiah Liciaga Silva, Seth Joseph Jetro
+- **Development Team Members**: Vernon Neilly, Max Berkowitz, Sophia Lee, Yuqi Zhu
 
 ## Table of Contents
 
